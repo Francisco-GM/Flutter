@@ -23,4 +23,23 @@ void main() {
 
   print('los empleados son ' + '$empleados');
   print('El salario de esos empleados son ' + '$salario');
+
+//Tipos de datos Booleanos y condiciones
+
+  bool isActive = true; // Declaracion de datos booleanos
+
+  if (isActive = true) {
+    print("Esta activa");
+  } else {
+    print("No esta Activa");
+  }
+
+  bool? isActive2 =
+      null; // Para que un valor booleano pueda ser NULL se le asigna el signo ?
+
+  if (isActive == null) {
+    print("isActive es null");
+  } else {
+    print("No es null");
+  }
 }
